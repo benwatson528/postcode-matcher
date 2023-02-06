@@ -24,7 +24,7 @@ This file can be imported into Excel for further processing.
 
 ## Postcode Data
 
-The lat/long for each postcode is found using the http://postcodes.io/ API, an open source project that is regularly
+The lat/long for each postcode is found using the http://postcodes.io API, an open source project that is regularly
 updated with the latest data from Ordnance Survey and the Office for National Statistics.
 
 Postcodes for which no latitude/longitude is found are not included in the results.
