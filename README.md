@@ -13,7 +13,8 @@ returns each base office and how many houses are closer to it than any other off
    AA1 1AA
    BB2 2BB
    ```
-4. Double click `main.py` to run it. The output will be written to `output/results.csv` as a CSV file with columns:
+4. Double click `main.py` to run it. A black box will briefly pop up before disappearing.
+The output will be written to `output/results.csv` as a CSV file with columns:
 
     1. `office` - the office postcode
     2. `num_closest` - the number of clients who are closer to this office than any other.
