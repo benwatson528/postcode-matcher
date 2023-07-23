@@ -8,7 +8,7 @@ returns each base office and how many houses are closer to it than any other off
 
 1. Download this application from GitHub https://github.com/benwatson528/postcode-matcher/archive/refs/heads/master.zip.
 2. Unzip it and open the `postcode-matcher` folder.
-3. In the folder `input/`, add two files: `clients.csv` and `offices.csv`. These files should contain only postcodes, one per line. Do not add a header or commas. For example:
+3. Update `input/offices.csv` and `input/clients.csv`. These files should contain only postcodes, one per line. Do not add a header or commas. For example:
    ```
    AA1 1AA
    BB2 2BB
