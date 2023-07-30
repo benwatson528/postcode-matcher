@@ -6,14 +6,11 @@ returns each base office and how many houses are closer to it than any other off
 
 ## Running Instructions
 
-1. Download this application from GitHub https://github.com/benwatson528/postcode-matcher/archive/refs/heads/master.zip.
-2. Unzip it and open the `postcode-matcher` folder.
-3. Update `input/offices.csv` and `input/clients.csv`. These files should contain only postcodes, one per line. Do not add a header or commas. For example:
-   ```
-   AA1 1AA
-   BB2 2BB
-   ```
-4. Run `main.py` with Python Launcher. A black box will briefly pop up before disappearing.
+1. Ensure Python 3 is installed (https://www.python.org/downloads/).
+2. Download this application from GitHub https://github.com/benwatson528/postcode-matcher/archive/refs/heads/master.zip.
+3. Unzip it and open the `postcode-matcher` folder.
+4. Update `input/offices.csv` and `input/clients.csv`. These files should contain only postcodes, one per line. Sample files are included.
+5. Run `main.py` with Python Launcher (it will be a right-click option on Mac).
 The output will be written to `output/results.csv` as a CSV file with columns:
 
     1. `office` - the office postcode
