@@ -40,9 +40,12 @@ def get_lat_longs(postcodes):
         response.raise_for_status()
         for result in response.json()["result"]:
             inner = result["result"]
-            latitude, longitude = inner["latitude"], inner["longitude"]
-            if latitude is not None and longitude is not None:
-                lat_longs[inner["postcode"]] = (latitude, longitude)
+            if not inner:
+                print(f"Unable to find information about postcode {result['query']}")
+            else:
+                latitude, longitude = inner["latitude"], inner["longitude"]
+                if latitude is not None and longitude is not None:
+                    lat_longs[inner["postcode"]] = (latitude, longitude)
     return lat_longs
 
 
